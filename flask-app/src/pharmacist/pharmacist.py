@@ -4,7 +4,7 @@ from src import db
 
 
 pharmacist = Blueprint('pharmacist', __name__)
-#comment
+
 # Get a list of all the medications that are supplied by the pharmacy that a pharmacist works at
 @pharmacist.route('/pharmacy_meds', methods=['GET'])
 def get_pharmacy_medications():
