@@ -2,6 +2,7 @@
 - Health Hero is meant to assist Doctors, Patients, and Pharmacists navigate the technologically complex world.
 - It is meant to be an easy to use application that offers users a wide variety of funtionality.
 - The framework of the project is based of of 3 blueprint, and each blueprint contains GET, DELETE, POST, and PUT queries to make our relational model come to life.
+- Health Hero supports in specific ways such as being aware of medication breakdowns, creating a hub for patients without navigating between multiple pages, and letting doctors oversee all of their appointments. 
 
 Video-Demo: https://drive.google.com/file/d/1Twp5fW9dio3H_LKwHMMhnccWRQeu1NDT/view?usp=sharing
 
