@@ -268,7 +268,7 @@ def get_practice_info():
     req_data = request.get_json()
     company_id = req_data['Insurance Company ID']
 
-    # uquery the database to retrieve practices using CompanyID
+    # uquery the database to retrieve practices using insurance's CompanyID
     query = 'SELECT * FROM Practice JOIN Practice_accepts_Insurance USING (PracticeNumber)'
     query += 'WHERE CompanyID = ' + str(company_id)
     cursor.execute(query)
